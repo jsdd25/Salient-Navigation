@@ -4,5 +4,4 @@ Autonomous navigation in unknown indoor environments using an RGB-D camera is a 
 
 Ground-truth Saliency Map Computation  
 ====
-We propose a novel approach to compute saliency map that not only consider geo-
-metric information but also contain semantic information.
+We propose a novel approach to compute the ground-truth saliency map by incorporating both geometric and semantic information. Our visual SLAM method adopts the feature-based method’s strategy, which extracts and matches features. Therefore, we should make our saliency prediction model focusing on the regions with rich features.
